@@ -12,5 +12,9 @@ public class Professor extends Pessoa {
     this.salario = salario;
   }
 
+  //  sobreescreveu o método da classe mãe (Pessoa)
+  public String imprimirDadosPessoa() {
+    return super.imprimirDadosPessoa() + ", você é professor e seu salário é " + salario;
+  }
 
 }
