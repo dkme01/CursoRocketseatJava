@@ -1,4 +1,4 @@
-package PrimeirasAulas;
+package primeirasaulas;
 
 /*
  * PrimeirasAulas.HelloWorld = Nome da minha classe
